@@ -1,5 +1,8 @@
 # httpheaders-fuzz
 
+![License: MIT](https://img.shields.io/github/license/carbonphyber/httpheaders-fuzz?style=for-the-badge)
+
+
 ## What
 This project aims to identify and clarify the differences in the ways in which multiple popular reverse proxy web servers treat HTTP headers.
 
@@ -17,6 +20,15 @@ If multiple web servers are set up in series (as is very common in non-trivial w
 Having an easily comprehendable matrix of how different servers handle HTTP headers generated in a reproduceable way would help the entire web development industry (as well as penetration testers and malicious actors) know how best to identify weaknesses in a website system.
 
 Additionally, some web server infrastructure products are asserted to work and be secure *only* *if* the documented configuration is followed, but anytime non-trivial and/or non-default settings are expected, there is the possibility of misconfiguration. At some point in the future, a product of this repo could be used to identify misconfigurations in specific networks.
+
+### Known security weaknesses
+
+Classes of vulnerabilities to web systems which are related or tangentially related to this work include:
+
+  - HTTP Desync attacks
+  - Web Cache Deception
+  - Web Cache Poisoning
+
 
 ## How
 This repo is structured as a client (`fuzzer/`) and multiple servers (`servers/`) including popular reverse proxies such as [NginX](https://github.com/nginx/nginx), [HAProxy](https://github.com/haproxy/haproxy), [Apache httpd](https://github.com/apache/httpd). We welcome Pull Requests for new servers (please Dockerize and have the basic server configuration built into the directory and assembled by the Dockerfile) and even just submitting GitHub Issues to request specific servers.
