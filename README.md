@@ -31,7 +31,13 @@ Classes of vulnerabilities to web systems which are related or tangentially rela
 
 
 ## How
-This repo is structured as a client (`fuzzer/`) and multiple servers (`servers/`) including popular reverse proxies such as [NginX](https://github.com/nginx/nginx), [HAProxy](https://github.com/haproxy/haproxy), [Apache httpd](https://github.com/apache/httpd). We welcome Pull Requests for new servers (please Dockerize and have the basic server configuration built into the directory and assembled by the Dockerfile) and even just submitting GitHub Issues to request specific servers.
+This repo is structured as a client (`fuzzer/`) and multiple servers (`servers/`) including popular reverse proxies such as:
+
+  - [NginX](https://github.com/nginx/nginx)
+  - [HAProxy](https://github.com/haproxy/haproxy)
+  - [Apache httpd](https://github.com/apache/httpd)
+
+We welcome Pull Requests for new servers (please Dockerize and have the basic server configuration built into the directory and assembled by the Dockerfile) and even just submitting GitHub Issues to request specific servers.
 
 Some interesting future servers could include proprietary servers, SaaS products, major Content Delivery Networks ("CDNs") edge servers, and cloud vendor Load Balancers.
 
