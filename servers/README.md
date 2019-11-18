@@ -17,14 +17,6 @@ cd servers/web-backend
 ```
 Run the command in [the README](./web-backend/README.md).
 
-## Build+Start the NginX server
-
-Change to the [nginx](./nginx) directory:
-```
-cd servers/nginx
-```
-Run the command in [the README](./nginx/README.md).
-
 ## Build+Start the HAProxy server
 
 Change to the [haproxy](./haproxy) directory:
@@ -32,3 +24,19 @@ Change to the [haproxy](./haproxy) directory:
 cd servers/haproxy
 ```
 Run the command in [the README](./haproxy/README.md).
+
+## Build+Start the httpd server
+
+Change to the [httpd](./httpd) directory:
+```
+cd servers/httpd
+```
+Run the command in [the README](./httpd/README.md).
+
+## Build+Start the NginX server
+
+Change to the [nginx](./nginx) directory:
+```
+cd servers/nginx
+```
+Run the command in [the README](./nginx/README.md).
