@@ -1,0 +1,14 @@
+{
+  "name": "web-backend",
+  "version": "1.0.0",
+  "description": "A web server to dump raw-ish HTTP headers to be able to validate how a reverse proxy manipulates headers.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
