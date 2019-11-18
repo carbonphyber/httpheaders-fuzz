@@ -11,24 +11,24 @@ docker network create network-webapp
 
 ## Build+Run the backend server
 
-Change to the [backend server](./servers/web-backend) directory:
+Change to the [backend server](./web-backend) directory:
 ```
 cd servers/web-backend
 ```
-Run the command in [the README](./servers/web-backend/README.md).
+Run the command in [the README](./web-backend/README.md).
 
 ## Build+Start the NginX server
 
-Change to the [nginx](./servers/nginx) directory:
+Change to the [nginx](./nginx) directory:
 ```
 cd servers/nginx
 ```
-Run the command in [the README](./servers/nginx/README.md).
+Run the command in [the README](./nginx/README.md).
 
 ## Build+Start the HAProxy server
 
-Change to the [haproxy](./servers/haproxy) directory:
+Change to the [haproxy](./haproxy) directory:
 ```
 cd servers/haproxy
 ```
-Run the command in [the README](./servers/haproxy/README.md).
+Run the command in [the README](./haproxy/README.md).
