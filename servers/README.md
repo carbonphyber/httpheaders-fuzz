@@ -40,3 +40,11 @@ Change to the [nginx](./nginx) directory:
 cd servers/nginx
 ```
 Run the command in [the README](./nginx/README.md).
+
+## Build+Start the Varnish server
+
+Change to the [varnish](./varnish) directory:
+```
+cd servers/varnish
+```
+Run the command in [the README](./varnish/README.md).

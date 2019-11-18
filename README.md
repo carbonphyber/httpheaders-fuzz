@@ -36,6 +36,7 @@ This repo is structured as a client (`fuzzer/`) and multiple servers (`servers/`
   - [NginX](https://github.com/nginx/nginx)
   - [HAProxy](https://github.com/haproxy/haproxy)
   - [Apache httpd](https://github.com/apache/httpd)
+  - [Varnish](https://varnish-cache.org/)
 
 We welcome Pull Requests for new servers (please Dockerize and have the basic server configuration built into the directory and assembled by the Dockerfile) and even just submitting GitHub Issues to request specific servers.
 
