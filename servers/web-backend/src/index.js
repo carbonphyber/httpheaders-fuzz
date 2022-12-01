@@ -23,7 +23,14 @@ const server = http.createServer((req, res) => {
     remoteAddress: reqIp,
     remotePort: reqPort,
   } = socket || {};
-  const body = `Your IP address is ${reqIp} and your source port is ${reqPort}.`;
+  const body = JSON.stringify({
+    headers,
+    rawHeaders,
+    socket: {
+      reqIp,
+      reqPort,
+    },
+  }, null, 4);
   res.writeHead(200, {
       'Content-Length': Buffer.byteLength(body),
       'Content-Type': 'text/plain'

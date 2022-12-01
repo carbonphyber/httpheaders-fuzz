@@ -1,7 +1,7 @@
 vcl 4.0;
 
 backend default {
-  .host = "web-backend:80";
+  .host = "web-backend:8080";
 }
 
 sub vcl_recv {

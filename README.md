@@ -25,6 +25,7 @@ Additionally, some web server infrastructure products are asserted to work and b
 
 Classes of vulnerabilities to web systems which are related or tangentially related to this work include:
 
+  - HTTP Request Smuggling
   - HTTP Desync attacks
   - Web Cache Deception
   - Web Cache Poisoning
@@ -33,6 +34,7 @@ Classes of vulnerabilities to web systems which are related or tangentially rela
 ## How
 This repo is structured as a client (`fuzzer/`) and multiple servers (`servers/`) including popular reverse proxies such as:
 
+  - [Envoy](https://github.com/envoyproxy/envoy)
   - [NginX](https://github.com/nginx/nginx)
   - [HAProxy](https://github.com/haproxy/haproxy)
   - [Apache httpd](https://github.com/apache/httpd)
@@ -43,4 +45,4 @@ We welcome Pull Requests for new servers (please Dockerize and have the basic se
 Some interesting future servers could include proprietary servers, SaaS products, major Content Delivery Networks ("CDNs") edge servers, and cloud vendor Load Balancers.
 
 ## Who
-This repo was created by David WOrtham a security researcher / web applications developer at [Balbix, Inc.](https://www.balbix.com/).
+This repo was created by David Wortham a security researcher / web applications developer at [Balbix, Inc.](https://www.balbix.com/).
