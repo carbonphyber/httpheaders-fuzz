@@ -2,7 +2,7 @@
 const http = require('http');
 
 const {
-  PORT: port = 80,
+  PORT: port = 8080,
   LISTEN: listenRaw,
 } = process.env;
 
